@@ -1,0 +1,20 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore node_modules
+node_modules/
+Backend/node_modules/
+Frontend/node_modules/
+Dashboard/node_modules/
+Frontend/public/fontawesome
+# Ignore environment variables
+.env
+Backend/.env
+Frontend/.env
+Dashboard/.env
+
+# Ignore logs, build files, and system files
+/build
+/dist
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
