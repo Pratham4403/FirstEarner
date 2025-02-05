@@ -8,7 +8,7 @@ export default function Positions(){
     const [allPositions,setAllPositions] = useState([]);
 
     useEffect(()=>{
-        axios.get("http://localhost:1856/allPositions").then((res)=>{
+        axios.get("https://firstearner.onrender.com/allPositions").then((res)=>{
             setAllPositions(res.data);
         });
     },[]);
