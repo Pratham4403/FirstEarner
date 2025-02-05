@@ -9,7 +9,7 @@ export default function Orders(){
     const[orders,setOrders] = useState([]);
 
     useEffect(()=>{
-        axios.get("http://localhost:1856/allOrders").then((res)=>{
+        axios.get("https://firstearner.onrender.com/allOrders").then((res)=>{
         setOrders(res.data);
     });
 },[]);
