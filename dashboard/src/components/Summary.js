@@ -7,7 +7,7 @@ const Summary = () => {
     const[holdings,setHoldings] = useState([]);
 
     useEffect(()=>{
-        axios.get("http://localhost:1856/summaryHoldings").then((res)=>{
+        axios.get("https://firstearner.onrender.com/summaryHoldings").then((res)=>{
         setHoldings(res.data);
     });
 },[]);
