@@ -8,7 +8,7 @@ export default function Holdings(){
     const [allholdings,setAllHoldings] = useState([]);
 
     useEffect(()=>{
-        axios.get("http://localhost:1856/allHoldings").then((res)=>{
+        axios.get("https://firstearner.onrender.com/allHoldings").then((res)=>{
         setAllHoldings(res.data);
         });
     },[]);
@@ -85,7 +85,7 @@ export default function Holdings(){
   ) : (
     <>
       <p style={{ textAlign: "center", marginTop: "200px" }}>
-        You haven't placed any order!
+        You haven't any Holdings!
       </p>
       <Link
         to={"/dashboard"}
