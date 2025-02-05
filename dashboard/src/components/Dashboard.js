@@ -7,6 +7,7 @@ import Positions from "./Positions";
 import Funds from "./Funds";
 import { BuyGeneralContextProvider } from "./BuyGeneralContext";
 import { SellGeneralContextProvider } from "./SellGeneralContext";
+import PageNotFound from "./PageNotFound";
 import Watchlist from "./WatchList";
 
 
