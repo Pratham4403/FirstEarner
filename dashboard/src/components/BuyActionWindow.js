@@ -12,7 +12,7 @@ export default function BuyActionWindow({stock}){
     const generalContext = useContext(BuyGeneralContext);
     const handleBuyClick = ()=>{
         // const totalCost = stockQuantity*stockPrice;
-        axios.post("http://localhost:1856/newOrders",{
+        axios.post("https://firstearner.onrender.com/newOrders",{
             name: stock.name,
             qty : stockQuantity,
             price : stock.price * stockQuantity,
