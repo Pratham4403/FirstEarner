@@ -28,7 +28,7 @@ export default function LoginPage() {
     console.log("Password:", password); // Debug log
 
     try {
-      const response = await axios.post("http://localhost:1856/login", {
+      const response = await axios.post("https://firstearner.onrender.com/login", {
         loginField,
         password,
       });
@@ -44,7 +44,7 @@ export default function LoginPage() {
       console.log("Current token in localStorage:", localStorage.getItem("token"));
 
       // Redirect to the dashboard app URL
-      window.location.href = "http://localhost:3001/dashboard"; // Change the URL to the dashboard app's URL
+      window.location.href = "https://firstearner-dashboard.onrender.com/dashboard"; // Change the URL to the dashboard app's URL
     } catch (err) {
       console.error("Login error:", err); // Debug log for error
       setError(err.response?.data?.message || "An error occurred during login.");
