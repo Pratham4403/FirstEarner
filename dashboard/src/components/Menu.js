@@ -21,22 +21,22 @@ export default function Menu(){
 
     useEffect(() => {
         switch (location.pathname) {
-            case '/dashboard':
+            case '/':
                 setSelectedMenu(0); // Home route
                 break;
-            case '/dashboard/orders':
+            case '/orders':
                 setSelectedMenu(1); // Orders route
                 break;
-            case '/dashboard/holdings':
+            case '/holdings':
                 setSelectedMenu(2); // Holdings route
                 break;
-            case '/dashboard/positions':
+            case '/positions':
                 setSelectedMenu(3); // Positions route
                 break;
-            case '/dashboard/funds':
+            case '/funds':
                 setSelectedMenu(4); // Funds route
                 break;
-            case '/dashboard/apps':
+            case '/apps':
                 setSelectedMenu(5); // Apps route
                 break;
             default:
@@ -55,35 +55,35 @@ export default function Menu(){
             <div className="menus">
                 <ul>
                     <li>
-                        <Link style={{textDecoration:"none"}} to="/dashboard" onClick={() => handleSelectedMenu(0)}>
+                        <Link style={{textDecoration:"none"}} to="/" onClick={() => handleSelectedMenu(0)}>
                             <p className={selectedMenu === 0 ? activeMenuClass : menuClass}>
                                 Dashboard
                             </p>
                         </Link>
                     </li>
                     <li>
-                        <Link style={{textDecoration:"none"}} to="/dashboard/orders" onClick={() => handleSelectedMenu(1)}>
+                        <Link style={{textDecoration:"none"}} to="/orders" onClick={() => handleSelectedMenu(1)}>
                             <p className={selectedMenu === 1 ? activeMenuClass : menuClass}>
                                 Orders
                             </p>
                         </Link>
                     </li>
                     <li>
-                        <Link style={{textDecoration:"none"}} to="/dashboard/holdings" onClick={() => handleSelectedMenu(2)}>
+                        <Link style={{textDecoration:"none"}} to="/holdings" onClick={() => handleSelectedMenu(2)}>
                             <p className={selectedMenu === 2 ? activeMenuClass : menuClass}>
                                 Holdings
                             </p>
                         </Link>
                     </li>
                     <li>
-                        <Link style={{textDecoration:"none"}} to="/dashboard/positions" onClick={() => handleSelectedMenu(3)}>
+                        <Link style={{textDecoration:"none"}} to="/positions" onClick={() => handleSelectedMenu(3)}>
                             <p className={selectedMenu === 3 ? activeMenuClass : menuClass}>
                                 Positions
                             </p>
                         </Link>
                     </li>
                     <li>
-                        <Link style={{textDecoration:"none"}} to="/dashboard/funds" onClick={() => handleSelectedMenu(4)}>
+                        <Link style={{textDecoration:"none"}} to="/funds" onClick={() => handleSelectedMenu(4)}>
                             <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
                                 Funds
                             </p>
