@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:3000/', 'http://localhost:3001/'],
+  origin: ['https://firstearner-frontend.onrender.com', 'https://firstearner-dashboard.onrender.com/dashboard'],
   credentials: true,
 }));
 const JWT_SECRET = process.env.JWT_SECRET || "UserFE1878";
