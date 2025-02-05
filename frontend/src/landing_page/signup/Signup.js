@@ -40,7 +40,7 @@ export default function Signup() {
         }
 
         try {
-            await axios.post("http://localhost:1856/signup", userData);
+            await axios.post("https://firstearner.onrender.com/signup", userData);
             setSuccess("Signup successful!");
             setUserData({ fullname: "", username: "", email: "", password: "", phonenumber: "" });
         } catch (err) {
