@@ -21,11 +21,11 @@ export default function Dashboard() {
             </BuyGeneralContextProvider>
             <div className="content">
                 <Routes>
-                    <Route path="/dashboard" element={<Summary/>} />
-                    <Route path="/dashboard/orders" element={<Orders/>} />
-                    <Route path="/dashboard/holdings" element={<Holdings/>} />
-                    <Route path="/dashboard/positions" element={<Positions/>} />
-                    <Route path="/dashboard/funds" element={<Funds />} />
+                    <Route path="/" element={<Summary/>} />
+                    <Route path="/orders" element={<Orders/>} />
+                    <Route path="/holdings" element={<Holdings/>} />
+                    <Route path="/positions" element={<Positions/>} />
+                    <Route path="/funds" element={<Funds />} />
                 </Routes>
             </div>
         </div>
