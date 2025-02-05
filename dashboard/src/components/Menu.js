@@ -46,7 +46,7 @@ export default function Menu(){
 
     const logout = () => {
         localStorage.removeItem('token'); // Remove token from localStorage
-        window.location.href = 'http://localhost:3000'; // Redirect to the frontend home page
+        window.location.href = 'https://firstearner-frontend.onrender.com'; // Redirect to the frontend home page
     };
 
     return(
