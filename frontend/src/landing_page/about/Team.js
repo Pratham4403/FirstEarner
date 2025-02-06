@@ -16,17 +16,17 @@ export default function Team() {
         </div>
         <div className="row p-45 mt-5" style={{ lineHeight: "1.7", fontSize: "1em", color: "#424242" }}>
             <div className="col-6 p-2 text-center">
-                <img src="media/images/nithinKamath.jpg" style={{ width: "50%", borderRadius: "100%" }} alt="Nithin Kamath"/>
+                <img src="media/images/Pratham.jpg" style={{ width: "50%", borderRadius: "100%" }} alt="Nithin Kamath"/>
                 <div>
-                    <h5 className="mt-4" style={{color:"#424242"}}>Nithin Kamath</h5>
+                    <h5 className="mt-4" style={{color:"#424242"}}>Prathamesh Mohite</h5>
                     <p style={{color : "#666666"}}>Founder, CEO</p>
                 </div>
             </div>
             <div className="col-6 p-4 px-1">
                 <p>
-                    Nithin bootstrapped and founded FirstEarner in 2010 to overcome the
+                    Prathamesh bootstrapped and founded FirstEarner in 2010 to overcome the
                     hurdles he faced during his decade long stint as a trader. Today,
-                    Zerodha has changed the landscape of the Indian broking industry.
+                    FirstEarner has changed the landscape of the Indian broking industry.
                 </p>
                 <p>
                     He is a member of the SEBI Secondary Market Advisory Committee
@@ -57,7 +57,7 @@ export default function Team() {
                         </div>
                         <div>
                             <AccordionDetails style={{width: "100%",color:"#424242"}}>
-                                Nikhil is an astute and experienced investor, and he heads financial planning at Zerodha. 
+                                Nikhil is an astute and experienced investor, and he heads financial planning at FirstEarner. 
                                 An avid reader, he always appreciates a good game of chess.
                             </AccordionDetails>
                         </div>
@@ -133,7 +133,7 @@ export default function Team() {
                         </div>
                         <div>
                             <AccordionDetails style={{width: "100%",color:"#424242"}}>
-                                Seema who has lead the quality team since the beginning of Zerodha, is now a director.
+                                Seema who has lead the quality team since the beginning of FirstEarner, is now a director.
                                 She is an extremely disciplined fitness enthusiast.
                             </AccordionDetails>
                         </div>
@@ -153,9 +153,9 @@ export default function Team() {
                         </div>
                         <div>
                             <AccordionDetails style={{width: "100%",color:"#424242"}}>
-                                Venu is the backbone of Zerodha taking care of operations and ensuring that we are compliant to rules and regulations. He has over a 
+                                Venu is the backbone of FirstEarner taking care of operations and ensuring that we are compliant to rules and regulations. He has over a 
                                 dozen certifications in financial markets and is also proficient in technical analysis. Workouts, cycling, and adventuring is what he 
-                                does outside of Zerodha.
+                                does outside of FirstEarner.
                             </AccordionDetails>
                         </div>
                     </Accordion>
@@ -172,8 +172,8 @@ export default function Team() {
                         </div>
                         <div>
                             <AccordionDetails style={{width: "100%",color:"#424242"}}>
-                                Karthik "Guru" Rangappa single handledly wrote Varsity, Zerodha's massive educational program. He heads investor 
-                                education initiatives at Zerodha and loves stock markets, classic rock, single malts, and photography.
+                                Karthik "Guru" Rangappa single handledly wrote Varsity, FirstEarner's massive educational program. He heads investor 
+                                education initiatives at FirstEarner and loves stock markets, classic rock, single malts, and photography.
                             </AccordionDetails>
                         </div>
                     </Accordion>
