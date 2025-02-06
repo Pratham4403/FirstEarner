@@ -37,11 +37,11 @@ export default function Footer(){
                         <br/>
                         <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>Careers</a>
                         <br/>
-                        <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>Zerodha.tech</a>
+                        <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>FirstEarner.tech</a>
                         <br/>
                         <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>Press & media</a>
                         <br/>
-                        <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>Zerodha cares (CSR)</a>
+                        <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>FirstEarner cares (CSR)</a>
                         <br/>
                     </div>
                     <div className="col-3">
@@ -50,7 +50,7 @@ export default function Footer(){
                         <br/>
                         <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>Support portal</a>
                         <br/>
-                        <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>Z-Connect blog</a>
+                        <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>FE-Connect blog</a>
                         <br/>
                         <a href="#" id="hoverEffect" style={{textDecoration : "none",color : "#666666",fontWeight : "400",fontSize : "16px"}}>List of charges</a>
                         <br/>
@@ -70,15 +70,15 @@ export default function Footer(){
                 
                 <div className="mt-5 text-muted" style={{fontSize : "14px"}}>
                     <p style={{fontSize : "12px",lineHeight : "20px"}} className="text-muted">
-                        Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-                        INZ000031633 CDSL: Depository services through Zerodha Securities
+                        FirstEarner Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
+                        INZ000031633 CDSL: Depository services through FirstEarner Securities
                         Pvt. Ltd. - SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-                        through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-                        no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
+                        through FirstEarner Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
+                        no.: INZ000038238 Registered Address: FirstEarner Broking Ltd.,
                         #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
                         J.P Nagar 4th Phase, Bengaluru - 56007,fontSize : "18px"8, Karnataka, India. For any
                         complaints pertaining to securities broking please write to
-                        complaints@zerodha.com, for DP related to dp@zerodha.com. Please
+                        complaints@FirstEarner.com, for DP related to dp@FirstEarner.com. Please
                         ensure you carefully read the Risk Disclosure Document as prescribed
                         by SEBI | ICF
                     </p>
@@ -107,7 +107,7 @@ export default function Footer(){
                         of allotment. In case of non allotment the funds will remain in your
                         bank account. As a business we don't give stock tips, and have not
                         authorized anyone to trade on behalf of others. If you find anyone
-                        claiming to be part of Zerodha and offering such services, please
+                        claiming to be part of FirstEarner and offering such services, please
                         create a ticket here.
                     </p>
                 </div> 
